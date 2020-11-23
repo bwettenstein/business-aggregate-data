@@ -2,7 +2,8 @@ const fetch = require('node-fetch');
 const dotenv = require('dotenv');
 dotenv.config();
 
-// Just so I don't have to write 'process.env' in front of all the variables
+// Replace these with your actual API codes
+// I used dotenv to help, so they're set to my .env file
 const YELP_API = process.env.YELP_API;
 const GOOGLE_API = process.env.GOOGLE_API;
 
